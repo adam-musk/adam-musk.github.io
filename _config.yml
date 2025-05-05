@@ -1,5 +1,9 @@
 remote_theme: pages-themes/tactile@v0.2.0
+
+url: "https://adam-musk.github.io" # the base hostname & protocol for your site
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-sitemap
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
+
 title: Adam Musk
 description: It's my official place of living as an Developer.
